@@ -1,0 +1,12 @@
+body {
+    background: #34292F;
+}
+
+title.center-text {
+  text-align: center;
+}
+
+aside {
+    float: left;
+    background: #A27F94;
+}

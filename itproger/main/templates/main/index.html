@@ -1,14 +1,22 @@
 {% extends 'main/layout.html' %}
+{% load static %}
 
 {% block title %}
    Главная страница
 {% endblock %}
 
 {% block content %}
+
+    <img src="{% static 'main/img/main_logo.jpg' %}" alt="Лого">
     <div class="features">
-        <h1>Главная страница</h1>
-        <p>Вставьте текст</p>
-        <button class="btn btn-warning">На страницу про нас</button>
+        <h1>Contacts</h1>
+<!--        <p>Вставьте текст</p>-->
+<!--        <button class="btn btn-warning">На страницу про нас</button>-->
+        <ul>
+            <a href=""> <li><i class="fas fa-home"></i>Главная</li> </a>
+            <a href=""> <li><i class="fas fa-square-info"></i>Про нас</li> </a>
+            <a href=""> <li><i class="fas fa-paper-plane"></i>Контакты</li> </a>
+        </ul>
     </div>
 {% endblock %}
 
